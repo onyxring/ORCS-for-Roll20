@@ -3,5 +3,5 @@ This is a rollup of all individual "OnyxRing Client Scripts for Roll20".  These 
 
 Documentation for the individual, stand-alone scripts can be found in their corresponding repositories.
 
-* [Roll20Async](https://github.com/onyxring/Roll20Async)      -  Enables the attribute access in SheetWorkers while using JavaScript Promises and within the callbacks of setTimeout() and setIntervals().
+* [Roll20Async](https://github.com/onyxring/Roll20Async)      -  Enables attribute access while using JavaScript Promises and within the callbacks of setTimeout() and setInterval().  Avoids the "Trying to do getAttrs when no character is active..." error message.
 * [orcsCharacter](https://github.com/onyxring/orcsCharacter)    -  Introduces a significantly improved syntax for accessing the character's attributes, including Repeated Sections, via property objects.  Depends on the Roll20Async script.
